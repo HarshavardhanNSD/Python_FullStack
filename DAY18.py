@@ -15,7 +15,7 @@ def print_numbers(n):
     if n == 0:                 # Base Case
         return
     print(n)
-    print_numbers(n - 1)       # Recursive Case
+    print_numbers(n - 1)   # Recursive Case
 print_numbers(n)
 # 3. Factorial using Recursion
 def factorial(n):
